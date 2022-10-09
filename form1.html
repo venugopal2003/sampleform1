@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h2>Details</h2>
+    <form action="mailto:neyigapulavenugopal@gmail.com" method="post" enctype="text/plain">
+        <label>
+            Name:
+        </label>
+        <input type="text" name="your name">
+        <br>
+        <br>
+        <label for="">Enter Email:</label>
+        <input type="email" name="your mail">
+        <br><br>
+        <textarea name="your message" id="" cols="30" rows="5"></textarea>
+        <br>
+        <br>
+        <label>Password:</label>
+        <input type="password" pattern=".{5,10}" required>
+        <br>
+        <br>
+        <label>Gender:</label>
+         <select  id="Gender" name="your gender">
+             <option value="">select</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+         </select>
+         <br>
+         <br>
+         <label for="">DOB:</label>
+         <input type="date" name="your dob">
+         <br>
+         <label for="">Agree Terms and Conditions</label>
+         <input type="checkbox" required>
+         <br>
+         <br>
+         <input type="submit">
+    </form>  
+</body>
+</html>
